@@ -1,0 +1,1130 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasBrand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasBrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isBrandof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Brand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasClothingSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasClothingSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isClothingSizeof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasCollar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasCollar">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#iscollarof"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasCollarSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasCollarSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isCollarSizeof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasCollardesign -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasCollardesign">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isCollardesignof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasColor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isColorof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasColor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasManufacture -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasManufacture">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isManufactureof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasSleeves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasSleeves">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isSleevesdesignof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasdesign -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasdesign">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isdesignof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasfit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasfit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isFitpatternof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasmaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#hasmaterial">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isMaterialof"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isBrandof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isBrandof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Brand"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isClothingSizeof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isClothingSizeof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isCollarSizeof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isCollarSizeof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isCollardesignof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isCollardesignof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isColorof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isColorof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Color"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isFitpatternof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isFitpatternof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isManufactureof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isManufactureof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isMaterialof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isMaterialof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isSleevesdesignof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isSleevesdesignof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#iscollarof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#iscollarof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isdesignof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#isdesignof">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#modern_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#relational_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Size">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Color"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Ashok_garment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Ashok_garment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Bathik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Bathik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Bloues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Bloues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Classic_Fit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Classic_Fit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Color"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Contemporary_Fit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Contemporary_Fit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Cotton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Cotton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Denimes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Denimes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_Pants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Gens_trousers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Gens_trousers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_Pants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Hamedia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Hamedia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Ladies_shirts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Ladies_shirts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Large -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Large">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Linen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Linen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#LongSleeves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#LongSleeves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MAs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MAs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenClothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenClothing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Saree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Saree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ShortSleeves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ShortSleeves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Silk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Silk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Skinny_Fit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Skinny_Fit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Skirts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Skirts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeveless -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeveless">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Sleeves"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Slim_Fit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Slim_Fit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ClothingSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#T-shirts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#T-shirts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Tredy_connection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Tredy_connection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Manufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Clothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#bow_neck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#bow_neck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#collar_less -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#collar_less">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#cutaway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#cutaway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#frocks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#frocks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#full_collar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#full_collar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#half_collar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#half_collar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ladies_trousers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ladies_trousers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#WomenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#lapel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#lapel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#long_button_down -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#long_button_down">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#peter_pan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#peter_pan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#poet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#poet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#saron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#saron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#semi_spread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#semi_spread">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#short_button_down -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#short_button_down">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#squar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#squar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#straight_point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#straight_point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#swan_necked -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#swan_necked">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_Pants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_Pants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_shirts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_shirts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenClothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14&amp;1/2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14&amp;1/2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15&amp;1/2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15&amp;1/2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16&amp;1/2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16&amp;1/2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarSize"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Bloues -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Bloues"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Denimes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Denimes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Denimes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Dress -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Dress"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Gens_trousers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Gens_trousers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Ladies_shirts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Ladies_shirts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Large -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Large"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MaternityFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MaternityFit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Medium"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenPants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenPants"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenShirts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenShirts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenTops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#MenTops"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#NIKE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#NIKE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Skirts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Skirts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#SlimFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#SlimFit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#FitPattern"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Small -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Small"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Speedo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Speedo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#T-shirts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#T-shirts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Women -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Women"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#bow_neck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#bow_neck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#squar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#collar_less -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#collar_less">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Collar"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#full_collar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#cutaway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#cutaway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men_dress_collar_designs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#frocks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#frocks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#full_collar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#full_collar">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#half_collar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#half_collar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#half_collar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ladies_trousers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#ladies_trousers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#lapel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#lapel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#long_button_down -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#long_button_down"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#next -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#next"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#peter_pan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#peter_pan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#poet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#poet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#semi_spread -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#semi_spread"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#short_button_down -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#short_button_down"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-17"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#squar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#squar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#CollarDesign"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#wemen_dress_collar_designs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#straight_point -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#straight_point"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#swan_necked -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#swan_necked"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#H_&amp;_M -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#H_&amp;_M"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Levie&apos;s -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Levie&apos;s"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_shirts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#Men&apos;s_shirts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14&amp;1/2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-14&amp;1/2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15&amp;1/2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-15&amp;1/2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16&amp;1/2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kasun/ontologies/2019/6/untitled-ontology-5#size-16&amp;1/2"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
